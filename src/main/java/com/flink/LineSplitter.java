@@ -1,13 +1,13 @@
 package com.flink;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
-
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.util.Collector;
 
 
 
 /**
+ * 分词器
  * created by yqq 2020/8/20
  */
 public  class LineSplitter implements FlatMapFunction<String, Tuple2<String,Integer>> {

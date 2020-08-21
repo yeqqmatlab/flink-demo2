@@ -6,6 +6,7 @@ import org.apache.flink.streaming.connectors.redis.common.mapper.RedisCommandDes
 import org.apache.flink.streaming.connectors.redis.common.mapper.RedisMapper;
 
 /**
+ * redis映射器
  * created by yqq 2020/8/20
  */
 public class RedisExampleMapper implements RedisMapper<Tuple2<String,Integer>> {

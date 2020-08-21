@@ -75,6 +75,11 @@
         </pluginManagement>
         <plugins>
             <plugin>
+                <groupId>com.github.houbb</groupId>
+                <artifactId>idoc-core</artifactId>
+                <version>0.1.0</version>
+            </plugin>
+            <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
                 <executions>
